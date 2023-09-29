@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main id="main_holder">
-        <h1 id="login_text">Log in!</h1>
-        <div id="input">
-            <input id="id_input" type="text" name="ID" value="ID" onfocus="this.value=''" onblur="this.value='ID'">
-            <input id="pw_input" type="text" name="PW" value="PW" onfocus="this.value=''" onblur="this.value='PW'">
-            <input id="login_button" type="button" value="LogIn!">
+    <main class="main_holder">
+        <div id="outline" >
+            <h1 id="login_text">Log in!</h1>
+            <div id="input">
+                <input id="id_input" type="text" name="ID" value="ID" onfocus="this.value=''">
+                <input id="pw_input" type="text" name="PW" value="PW" onfocus="this.value=''">
+                <input id="login_button" type="button" value="LogIn!">
+            </div>
         </div>
     </main>
+    <script src="index.js"></script>   
 </body>
 </html>
